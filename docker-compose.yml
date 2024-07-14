@@ -1,8 +1,6 @@
-version: '1.0'
-
 services:
   api_rest_kanban:
-    container_name: kanvan-api
+    container_name: kanban-api
     build: .
     env_file: ".env"
     ports:

@@ -14,6 +14,3 @@ RUN npm run build
 
 # Expone el puerto en el cual la aplicación estará corriendo
 EXPOSE 3000
-
-# Comando para iniciar la aplicación
-CMD ["node", "dist/app.js"]
